@@ -1,7 +1,7 @@
-## Introduction
+## 🎄 Introduction
 You're probably already familiar with [Advent of Code](https://adventofcode.com/), so let's skip that. This repository contains my solutions for this year, where my primary goal is to really dive deeper into Rust and become fluent in the language.
 
-## Repository structure
+## 📁 Folder structure
 
     .
     ├── days                  
@@ -24,7 +24,7 @@ You're probably already familiar with [Advent of Code](https://adventofcode.com/
     ├── README.MD
     └── generator.sh                   # Helper script to quickly generate all files
 
-## Quick Start
+## 🚀 Quick Start
 
 ### 1. Clone the project
 
