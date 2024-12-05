@@ -4,12 +4,12 @@ You're probably already familiar with [Advent of Code](https://adventofcode.com/
 ## Project structure
 
     .
-    ├── days                    # Daily challenge, each with its own Rust crate
+    ├── days                    # Daily challenges, each with its own Rust crate
     ├── inputs                  # Input data for each challenge
     ├── templates               # Boilerplate code for starting each challenge
     ├── .gitignore                    
     ├── generator.sh            # Helper script to quickly generate all files
-    ├── Makefile                # Automated build instructions
+    ├── Makefile                # Automated build and run instructions
     └── README.md
 
 ## Quick Start
