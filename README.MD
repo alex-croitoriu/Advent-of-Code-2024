@@ -4,25 +4,25 @@ You're probably already familiar with [Advent of Code](https://adventofcode.com/
 ## 📁 Folder structure
 
     .
-    ├── days                  
-    │   ├── day01                      # Individual Rust crate for every challenge
+    ├── days                            # Individual Rust crates for each challenge
+    │   ├── day01                      
     │   │   ├── Cargo.lock
     │   │   ├── Cargo.toml
-    │   │   └──  src
-    │   │       ├── main.rs            # Entry point for cargo to build and run both parts
+    │   │   └──  src                    # Entry point for cargo to build and run both parts
+    │   │       ├── main.rs             
     │   │       ├── part1.rs   
     │   │       └── part2.rs
     │   └── ...
-    ├── inputs                    
-    │   ├── day01.txt                  # Separate input files for every challenge
+    ├── inputs                          # Separate input files for each challenge
+    │   ├── day01.txt                  
     │   └── ...
-    ├── templates                      # Boilerplate files
+    ├── templates                       # Boilerplate files
     │   ├── main.rs
     │   └── part.rs
     ├── .gitignore
-    ├── Makefile                       # Automated build and run instructions
+    ├── Makefile                        # Automated build and run instructions
     ├── README.MD
-    └── generator.sh                   # Helper script to quickly generate all files
+    └── generator.sh                    # Helper script to quickly generate all files
 
 ## 🚀 Quick Start
 
