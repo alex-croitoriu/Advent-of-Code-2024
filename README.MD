@@ -3,6 +3,7 @@
 # 🎄 Advent of Code 2024
 
 </div>
+
 You're probably already familiar with [Advent of Code](https://adventofcode.com/), so let's skip that. This repository contains my solutions for this year, where my primary goal is to really dive deeper into Rust and become fluent in the language.
 
 ## 📁 Folder structure
