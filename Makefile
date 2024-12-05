@@ -5,6 +5,5 @@ else
 endif
 
 all:
-	@echo DAY $(DAY)
-	cd day$(DAY)
-	cargo run --release --manifest-path=day$(DAY)/Cargo.toml
+	echo DAY $(DAY)
+	cargo run --release --manifest-path=days/day$(DAY)/Cargo.toml
