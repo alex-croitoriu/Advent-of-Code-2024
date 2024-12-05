@@ -1,7 +1,7 @@
 ## Introduction
 You're probably already familiar with [Advent of Code](https://adventofcode.com/), so let's skip that. This repository contains my solutions for this year, where my primary goal is to really dive deeper into Rust and become fluent in the language.
 
-## Project structure
+## File structure
 
     .
     ├── days                    # Daily challenges, each with its own Rust crate
@@ -26,9 +26,9 @@ git clone https://github.com/alex-croitoriu/Advent-of-Code-2024.git
 cd Advent-of-Code-2024
 ```
 
-### 3. Run
+### 3. Build and run
 
-Running these will process the same input for both parts of the daily challenge and print out the two separate answers.
+Running these commands will process the same input for both parts of the daily challenge and print out the two separate answers.
 
 ```bash
 # Build and run the solution for the current day 
