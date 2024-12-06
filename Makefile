@@ -5,5 +5,5 @@ else
 endif
 
 all:
-	echo DAY $(DAY)
-	cargo run --release --manifest-path=days/day$(DAY)/Cargo.toml
+	@echo Building and running solution for day $(DAY)
+	@cargo run --release --manifest-path=days/day$(DAY)/Cargo.toml
