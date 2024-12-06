@@ -6,10 +6,11 @@ const PKG_NAME: &str = env!("CARGO_PKG_NAME");
 
 pub fn solve() {
     let mut ans = 0;
-    let re = Regex::new(r"mul\([0-9]+,[0-9]+\)").unwrap();
 
     if let Ok(file) = File::open(format!("inputs/{PKG_NAME}.txt")) {
         let lines: Vec<String> = BufReader::new(file).lines().map(|l| l.unwrap()).collect();
+
+        let re = Regex::new(r"mul\([0-9]+,[0-9]+\)").unwrap();
         
         for line in lines {
             let matches = re.find_iter(line.as_str());

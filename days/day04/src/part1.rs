@@ -18,10 +18,10 @@ pub fn matches(s: &String) -> i32 {
 pub fn solve() {
     let mut ans = 0;
 
-    let mut table: Vec<Vec<char>> = Vec::new();
-
     if let Ok(file) = File::open(format!("inputs/{PKG_NAME}.txt")) {
         let lines: Vec<String> = BufReader::new(file).lines().map(|l| l.unwrap()).collect();
+
+        let mut table: Vec<Vec<char>> = Vec::new();
 
         let n = lines.len();
         let m = lines[0].len();
