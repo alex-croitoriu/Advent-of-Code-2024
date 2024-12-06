@@ -48,11 +48,9 @@ cd Advent-of-Code-2024
 Running these commands will process the same input for both parts of the daily challenge and print out the two separate answers.
 
 ```bash
-# Build and run the solution for the current day 
-# (only makes sense during advent season)
+# Build and run the solution for the current day (only makes sense during advent season)
 make
 
-# Build and run the solution for a specified day
-# (will work for the range 01..25)
+# Build and run the solution for a specified day (will work for the range 01..25)
 make DAY=01
 ```
