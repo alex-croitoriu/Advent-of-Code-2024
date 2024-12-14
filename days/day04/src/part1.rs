@@ -23,8 +23,7 @@ pub fn solve() {
 
         let mut table: Vec<Vec<char>> = Vec::new();
 
-        let n = lines.len();
-        let m = lines[0].len();
+        let (n, m) = (lines.len(), lines[0].len());
         
         for line in lines {
             table.push(line.chars().collect::<Vec<char>>());
