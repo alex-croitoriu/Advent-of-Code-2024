@@ -3,7 +3,7 @@ use std::io::{BufRead, BufReader};
 
 const PKG_NAME: &str = env!("CARGO_PKG_NAME");
 
-const DIR: [(isize, isize); 4]  = [(-1, 0), (0, 1), (1, 0), (0, -1)];
+const DIR: [(isize, isize); 4] = [(-1, 0), (0, 1), (1, 0), (0, -1)];
 
 pub fn inside(x: isize, y: isize, n: usize, m: usize) -> bool {
     x >= 0 && y >= 0 && x < (n as isize) && y < (m as isize)
@@ -27,7 +27,7 @@ pub fn solve() {
 
     if let Ok(file) = File::open(format!("inputs/{PKG_NAME}.txt")) {
         let lines: Vec<String> = BufReader::new(file).lines().map(|l| l.unwrap()).collect();
-        
+
         let mut map: Vec<Vec<i32>> = Vec::new();
 
         let (n, m) = (lines.len(), lines[0].len());

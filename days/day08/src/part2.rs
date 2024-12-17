@@ -52,7 +52,6 @@ pub fn solve() {
                 }
             }
         }
-
         ans = antinodes.len();
     }
 

@@ -4,7 +4,7 @@ use std::collections::HashSet;
 
 const PKG_NAME: &str = env!("CARGO_PKG_NAME");
 
-const DIR: [(isize, isize); 4]  = [(-1, 0), (0, 1), (1, 0), (0, -1)];
+const DIR: [(isize, isize); 4] = [(-1, 0), (0, 1), (1, 0), (0, -1)];
 
 pub fn inside(x: isize, y: isize, n: usize, m: usize) -> bool {
     x >= 0 && y >= 0 && x < (n as isize) && y < (m as isize)
