@@ -9,7 +9,7 @@ pub fn inside(x: isize, y: isize, n: usize, m: usize) -> bool {
     x >= 0 && y >= 0 && x < (n as isize) && y < (m as isize)
 }
 
-fn dfs(x: isize, y: isize, n: usize, m: usize, ans: &mut i32, map: &Vec<Vec<i32>>) {
+pub fn dfs(x: isize, y: isize, n: usize, m: usize, ans: &mut i32, map: &Vec<Vec<i32>>) {
     if map[x as usize][y as usize] == 9 {
         *ans += 1;
         return;
